@@ -1,18 +1,19 @@
 package prep;
 
-public class App {
+import prep.Foods.FoodTools;
 
+public class App {
     public static void main(String[] args) {
+        FoodTools.initializeApp();
+    }
+}
+
 //
 //        int int1, int int2 = (2, 2);
 //        System.out.println(Arithmetic.product);
 //
 //        int[] arr = {2, 1, 0};
 //        System.out.println(Arithmetic.getAverage(arr));
-
-    }
-
-}
 
 /*
 Create two classes in a package called "prep":
